@@ -1,10 +1,10 @@
 public class BmiService {
 
-    public double calculate(double hight_meter, double weight_kilo) {
+    public double calculate(double hightMeter, double weightKilo) {
         double result;
-        result = weight_kilo / (hight_meter * hight_meter);
+        result = weightKilo / (hightMeter * hightMeter);
 
-        return(int)result;
+        return (int) result;
     }
 }
 
